@@ -248,9 +248,7 @@
           <label>Rename dialog defaults</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -284,9 +282,7 @@
           <label>Temporary files</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -1289,9 +1285,7 @@
           <label>Image pasting</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -1401,9 +1395,7 @@
           <label>File pasting/dropping</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -1972,9 +1964,7 @@
         <object class="wxStaticText" name="">
           <label>Chronological View</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2068,9 +2058,7 @@
         <object class="wxStaticText" name="">
           <label>Timeline</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2100,9 +2088,7 @@
         <object class="wxStaticText" name="">
           <label>Versioning</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2147,9 +2133,7 @@
         <object class="wxStaticText" name="">
           <label>Wiki-wide history</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2194,9 +2178,7 @@
         <object class="wxStaticText" name="">
           <label>General</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2215,9 +2197,7 @@
         <object class="wxStaticText" name="">
           <label>Wiki-wide search</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2228,9 +2208,7 @@
         <object class="wxStaticText" name="">
           <label>  Defaults</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2276,9 +2254,7 @@
         <object class="wxStaticText" name="">
           <label>  Context characters</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2367,9 +2343,7 @@
               <label>Fast search defaults</label>
               <style></style>
               <font>
-                <style>default</style>
                 <weight>bold</weight>
-                <family>normal</family>
                 <underlined>0</underlined>
               </font>
             </object>
@@ -2432,9 +2406,7 @@
         <object class="wxStaticText" name="">
           <label>Incremental search</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -2502,8 +2474,6 @@
             <object class="wxStaticText">
               <label>Compatibility</label>
               <font>
-                <family>normal</family>
-                <style>default</style>
                 <weight>bold</weight>
                 <underlined>0</underlined>
               </font>
@@ -2629,8 +2599,6 @@
               <label>Change these only if you know what you are doing!</label>
               <fg>#A80000</fg>
               <font>
-                <family>normal</family>
-                <style>default</style>
                 <weight>bold</weight>
                 <underlined>0</underlined>
               </font>
@@ -2674,8 +2642,6 @@
             <object class="wxStaticText">
               <label>Editor timing</label>
               <font>
-                <family>normal</family>
-                <style>default</style>
                 <weight>bold</weight>
                 <underlined>0</underlined>
               </font>
@@ -2762,8 +2728,6 @@
             <object class="wxStaticText">
               <label>Tree timing</label>
               <font>
-                <family>normal</family>
-                <style>default</style>
                 <weight>bold</weight>
                 <underlined>0</underlined>
               </font>
@@ -3035,9 +2999,7 @@
           <label>Trashcan</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3163,9 +3125,7 @@
           <label>Heading of new pages</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3248,9 +3208,7 @@
           <label>Headings as aliases</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3288,9 +3246,7 @@
         <object class="wxStaticText" name="">
           <label>Versioning</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3376,9 +3332,7 @@
         <object class="wxStaticText" name="">
           <label>Tab history</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3432,9 +3386,7 @@
         <object class="wxStaticText" name="">
           <label>Wiki-wide history</label>
           <font>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3494,9 +3446,7 @@
           <label>File storage identity check</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3533,9 +3483,7 @@
           <label>File signature</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3574,9 +3522,7 @@
           <label>Miscellanous</label>
           <font>
             <size>8</size>
-            <style>default</style>
             <weight>bold</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
@@ -3646,9 +3592,7 @@
           <label></label>
           <font>
             <size>12</size>
-            <style>default</style>
             <weight>normal</weight>
-            <family>normal</family>
             <underlined>0</underlined>
           </font>
         </object>
