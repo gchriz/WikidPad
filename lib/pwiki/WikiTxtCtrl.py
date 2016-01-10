@@ -446,6 +446,14 @@ class WikiTxtCtrl(SearchableScintillaControl):
             copyTextToClipboard(text)
 
     def Paste(self):
+        if self.presenter.getConfig().getboolean("main",
+                "editor_imagePaste_alwaysGetTextOnly", True):
+            # Text pasted?
+            text = getTextFromClipboard()
+            if text:
+                self.ReplaceSelection(text)
+                return True
+
         # File(name)s pasted?
         filenames = wxHelper.getFilesFromClipboard()
         if filenames is not None:
@@ -501,15 +509,24 @@ class WikiTxtCtrl(SearchableScintillaControl):
         if WindowsHacks:
 
             # Windows Meta File pasted?
-            destPath = imgsav.saveWmfFromClipboardToFileStorage(fs)
-            if destPath is not None:
-                url = self.presenter.getWikiDocument().makeAbsPathRelUrl(destPath)
+            if imgsav.isWmfInClipboard():
+                if self.presenter.getConfig().getboolean("main",
+                        "editor_imagePaste_getTextOnlyFromWmf", True):
+                    # Text pasted?
+                    text = getTextFromClipboard()
+                    if text:
+                        self.ReplaceSelection(text)
+                        return True
 
-                if url is None:
-                    url = u"file:" + StringOps.urlFromPathname(destPath)
+                destPath = imgsav.saveWmfFromClipboardToFileStorage(fs)
+                if destPath is not None:
+                    url = self.presenter.getWikiDocument().makeAbsPathRelUrl(destPath)
 
-                self.ReplaceSelection(url)
-                return True
+                    if url is None:
+                        url = u"file:" + StringOps.urlFromPathname(destPath)
+
+                    self.ReplaceSelection(url)
+                    return True
 
         # Text pasted?
         text = getTextFromClipboard()
@@ -6727,10 +6744,10 @@ class ViHandler(ViHelper):
         Contains some custom code to allow repeating
         """
         # TODO: visual indication
-	try:
-	    char = unichr(keycode)
-	except:
-	    return
+        try:
+            char = unichr(keycode)
+        except:
+            return
 
         selected_text_len = None
         # If in visual mode use the seletion we have (not the count)
